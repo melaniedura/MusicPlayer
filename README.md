@@ -1,5 +1,5 @@
 # SpotifyClone
-Basic Spotify Clone app
+Basic Music player app
 
 ### WORK IN PROGRESS ... 🚧 🚦
 

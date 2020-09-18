@@ -3,7 +3,7 @@ Basic Spotify Clone app
 
 ### WORK IN PROGRESS ... 🚧 🚦
 
-#### Built with con 🛠️
+#### Built with 🛠️
 
 * ExoPlayer
 * Firebase Firestore

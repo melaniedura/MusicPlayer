@@ -1,9 +1,9 @@
 # SpotifyClone
-Basic Spotify Clone app
+Basic Music player app
 
 ### WORK IN PROGRESS ... 🚧 🚦
 
-#### Built with con 🛠️
+#### Built with 🛠️
 
 * ExoPlayer
 * Firebase Firestore

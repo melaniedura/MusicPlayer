@@ -1,4 +1,4 @@
-# SpotifyClone
+# Music Player
 Basic Music player app
 
 ### WORK IN PROGRESS ... 🚧 🚦

@@ -1,4 +1,4 @@
-package com.melaniedura.spotifyclone.data.entities
+package com.melaniedura.musicplayer.data.entities
 
 data class Song(
     val mediaId: String = "",

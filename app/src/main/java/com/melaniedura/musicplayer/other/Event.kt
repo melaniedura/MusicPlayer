@@ -1,4 +1,4 @@
-package com.melaniedura.spotifyclone.other
+package com.melaniedura.musicplayer.other
 
 open class Event<out T>(private val data: T) {
 

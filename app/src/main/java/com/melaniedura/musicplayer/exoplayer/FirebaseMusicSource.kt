@@ -1,4 +1,4 @@
-package com.melaniedura.spotifyclone.exoplayer
+package com.melaniedura.musicplayer.exoplayer
 
 import android.support.v4.media.MediaBrowserCompat
 import android.support.v4.media.MediaBrowserCompat.MediaItem.FLAG_PLAYABLE
@@ -9,8 +9,8 @@ import androidx.core.net.toUri
 import com.google.android.exoplayer2.source.ConcatenatingMediaSource
 import com.google.android.exoplayer2.source.ProgressiveMediaSource
 import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory
-import com.melaniedura.spotifyclone.data.remote.MusicDatabase
-import com.melaniedura.spotifyclone.exoplayer.State.*
+import com.melaniedura.musicplayer.data.remote.MusicDatabase
+import com.melaniedura.musicplayer.exoplayer.State.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import javax.inject.Inject

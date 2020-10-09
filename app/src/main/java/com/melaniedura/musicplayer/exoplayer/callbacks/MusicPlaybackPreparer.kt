@@ -1,4 +1,4 @@
-package com.melaniedura.spotifyclone.exoplayer.callbacks
+package com.melaniedura.musicplayer.exoplayer.callbacks
 
 import android.net.Uri
 import android.os.Bundle
@@ -8,7 +8,7 @@ import android.support.v4.media.session.PlaybackStateCompat
 import com.google.android.exoplayer2.ControlDispatcher
 import com.google.android.exoplayer2.Player
 import com.google.android.exoplayer2.ext.mediasession.MediaSessionConnector
-import com.melaniedura.spotifyclone.exoplayer.FirebaseMusicSource
+import com.melaniedura.musicplayer.exoplayer.FirebaseMusicSource
 
 class MusicPlaybackPreparer(
     private val firebaseMusicSource: FirebaseMusicSource,

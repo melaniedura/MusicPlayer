@@ -1,4 +1,4 @@
-package com.melaniedura.spotifyclone
+package com.melaniedura.musicplayer
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

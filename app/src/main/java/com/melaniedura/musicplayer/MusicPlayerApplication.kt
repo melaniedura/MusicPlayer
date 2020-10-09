@@ -1,4 +1,4 @@
-package com.melaniedura.spotifyclone
+package com.melaniedura.musicplayer
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

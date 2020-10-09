@@ -1,4 +1,4 @@
-package com.melaniedura.spotifyclone.di
+package com.melaniedura.musicplayer.di
 
 import android.content.Context
 import com.google.android.exoplayer2.C
@@ -6,7 +6,7 @@ import com.google.android.exoplayer2.SimpleExoPlayer
 import com.google.android.exoplayer2.audio.AudioAttributes
 import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory
 import com.google.android.exoplayer2.util.Util
-import com.melaniedura.spotifyclone.data.remote.MusicDatabase
+import com.melaniedura.musicplayer.data.remote.MusicDatabase
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

@@ -1,10 +1,10 @@
-package com.melaniedura.spotifyclone.di
+package com.melaniedura.musicplayer.di
 
 import android.content.Context
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.request.RequestOptions
-import com.melaniedura.spotifyclone.R
+import com.melaniedura.musicplayer.R
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

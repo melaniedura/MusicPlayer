@@ -1,9 +1,9 @@
-package com.melaniedura.spotifyclone.exoplayer.callbacks
+package com.melaniedura.musicplayer.exoplayer.callbacks
 
 import android.widget.Toast
 import com.google.android.exoplayer2.ExoPlaybackException
 import com.google.android.exoplayer2.Player
-import com.melaniedura.spotifyclone.exoplayer.MusicService
+import com.melaniedura.musicplayer.exoplayer.MusicService
 
 class MusicPlayerEventListener (
     private val musicService: MusicService

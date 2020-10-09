@@ -1,4 +1,4 @@
-package com.melaniedura.spotifyclone.exoplayer
+package com.melaniedura.musicplayer.exoplayer
 
 import android.app.PendingIntent
 import android.content.Intent
@@ -13,10 +13,10 @@ import com.google.android.exoplayer2.SimpleExoPlayer
 import com.google.android.exoplayer2.ext.mediasession.MediaSessionConnector
 import com.google.android.exoplayer2.ext.mediasession.TimelineQueueNavigator
 import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory
-import com.melaniedura.spotifyclone.exoplayer.callbacks.MusicPlaybackPreparer
-import com.melaniedura.spotifyclone.exoplayer.callbacks.MusicPlayerEventListener
-import com.melaniedura.spotifyclone.exoplayer.callbacks.MusicPlayerNotificationListener
-import com.melaniedura.spotifyclone.other.Constants.MEDIA_ROOT_ID
+import com.melaniedura.musicplayer.exoplayer.callbacks.MusicPlaybackPreparer
+import com.melaniedura.musicplayer.exoplayer.callbacks.MusicPlayerEventListener
+import com.melaniedura.musicplayer.exoplayer.callbacks.MusicPlayerNotificationListener
+import com.melaniedura.musicplayer.other.Constants.MEDIA_ROOT_ID
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.*
 import javax.inject.Inject

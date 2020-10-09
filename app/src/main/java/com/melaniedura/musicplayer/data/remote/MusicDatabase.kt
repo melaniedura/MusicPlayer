@@ -1,8 +1,8 @@
-package com.melaniedura.spotifyclone.data.remote
+package com.melaniedura.musicplayer.data.remote
 
 import com.google.firebase.firestore.FirebaseFirestore
-import com.melaniedura.spotifyclone.data.entities.Song
-import com.melaniedura.spotifyclone.other.Constants.SONG_COLLECTION
+import com.melaniedura.musicplayer.data.entities.Song
+import com.melaniedura.musicplayer.other.Constants.SONG_COLLECTION
 import kotlinx.coroutines.tasks.await
 
 class MusicDatabase {

@@ -1,4 +1,4 @@
-package com.melaniedura.spotifyclone.exoplayer
+package com.melaniedura.musicplayer.exoplayer
 
 import android.app.PendingIntent
 import android.content.Context
@@ -11,9 +11,9 @@ import com.bumptech.glide.request.target.CustomTarget
 import com.bumptech.glide.request.transition.Transition
 import com.google.android.exoplayer2.Player
 import com.google.android.exoplayer2.ui.PlayerNotificationManager
-import com.melaniedura.spotifyclone.R
-import com.melaniedura.spotifyclone.other.Constants.NOTIFICATION_CHANNEL_ID
-import com.melaniedura.spotifyclone.other.Constants.NOTIFICATION_ID
+import com.melaniedura.musicplayer.R
+import com.melaniedura.musicplayer.other.Constants.NOTIFICATION_CHANNEL_ID
+import com.melaniedura.musicplayer.other.Constants.NOTIFICATION_ID
 
 class MusicNotificationManager(
     private val context: Context,

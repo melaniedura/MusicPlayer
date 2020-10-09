@@ -1,4 +1,4 @@
-package com.melaniedura.spotifyclone.other
+package com.melaniedura.musicplayer.other
 
 object Constants {
 

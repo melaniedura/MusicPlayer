@@ -1,11 +1,11 @@
-package com.melaniedura.spotifyclone.exoplayer.callbacks
+package com.melaniedura.musicplayer.exoplayer.callbacks
 
 import android.app.Notification
 import android.content.Intent
 import androidx.core.content.ContextCompat
 import com.google.android.exoplayer2.ui.PlayerNotificationManager
-import com.melaniedura.spotifyclone.exoplayer.MusicService
-import com.melaniedura.spotifyclone.other.Constants.NOTIFICATION_ID
+import com.melaniedura.musicplayer.exoplayer.MusicService
+import com.melaniedura.musicplayer.other.Constants.NOTIFICATION_ID
 
 class MusicPlayerNotificationListener(
     private val musicService: MusicService

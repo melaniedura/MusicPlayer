@@ -17,6 +17,7 @@ import com.melaniedura.musicplayer.exoplayer.callbacks.MusicPlaybackPreparer
 import com.melaniedura.musicplayer.exoplayer.callbacks.MusicPlayerEventListener
 import com.melaniedura.musicplayer.exoplayer.callbacks.MusicPlayerNotificationListener
 import com.melaniedura.musicplayer.other.Constants.MEDIA_ROOT_ID
+import com.melaniedura.musicplayer.other.Constants.NETWORK_ERROR
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.*
 import javax.inject.Inject
@@ -149,6 +150,7 @@ class MusicService: MediaBrowserServiceCompat() {
                             isPlayerInitialized = true
                         }
                     } else {
+                        mediaSession.sendSessionEvent(NETWORK_ERROR, null)
                         result.sendResult(null)
                     }
                 }

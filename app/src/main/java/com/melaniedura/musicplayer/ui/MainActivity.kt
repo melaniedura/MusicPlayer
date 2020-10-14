@@ -1,8 +1,9 @@
-package com.melaniedura.musicplayer
+package com.melaniedura.musicplayer.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.RequestManager
+import com.melaniedura.musicplayer.R
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
